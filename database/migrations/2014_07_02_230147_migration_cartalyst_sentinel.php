@@ -108,7 +108,7 @@ class MigrationCartalystSentinel extends Migration
             $table->integer('deleted_by')->nullable()->unsigned();
             $table->softDeletes();
 
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreign('created_by')->references('id')->on('users')->nullable();
             $table->foreign('updated_by')->references('id')->on('users');
             $table->foreign('deleted_by')->references('id')->on('users');
             $table->engine = 'InnoDB';
