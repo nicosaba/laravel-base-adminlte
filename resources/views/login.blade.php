@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="hold-transition login-page skin-red">
+<body class="hold-transition login-page skin-blue">
 <div id="app"></div>
 <div class="login-box">
     <div class="login-logo center-block">

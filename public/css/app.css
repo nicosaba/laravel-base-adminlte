@@ -298,26 +298,7 @@
     float: right; }
   .daterangepicker .calendar.left {
     clear: none !important; } }
-@font-face {
-    font-family: 'Melot';
-    src: url(../fonts/Molot.otf?41fd7a16df8966e172c862ca3875679f);
-    font-weight: normal;
-    font-style: normal;
-}
-.logo-ingreso{
-    font-family: Melot;
-    font-size: 40px;
-    color:#FFF;
-}
-.login-page,
-.register-page {
-    background:#D53C28 !important;
-}
-.login-box-body,
-.register-box-body {
-    background: #DC4D3B!important;
-    color: #FFF!important;
-}.navbar-laravel {
+.navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
