@@ -1,0 +1,36 @@
+.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+.jvectormap-label {
+    position: absolute;
+    display: none;
+    border: solid 1px #CDCDCD;
+    border-radius: 3px;
+    background: #292929;
+    color: white;
+    font-family: sans-serif, Verdana;
+    font-size: smaller;
+    padding: 3px;
+}
+
+.jvectormap-zoomin, .jvectormap-zoomout {
+    position: absolute;
+    left: 10px;
+    border-radius: 3px;
+    background: #292929;
+    padding: 3px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    line-height: 10px;
+    text-align: center;
+}
+
+.jvectormap-zoomin {
+    top: 10px;
+}
+
+.jvectormap-zoomout {
+    top: 30px;
+}
+

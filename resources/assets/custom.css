@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Melot';
+    src: url('fonts/Molot.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo-ingreso{
+    font-family: Melot;
+    font-size: 40px;
+    color:#FFF;
+}
+.login-page,
+.register-page {
+    background:#D53C28 !important;
+}
+.login-box-body,
+.register-box-body {
+    background: #DC4D3B!important;
+    color: #FFF!important;
+}
