@@ -9,7 +9,7 @@ class LoginController extends Controller
 {
     public function login(){
 //        Sentinel::register([
-//            'dni'    => '34794239',
+//            'dni'    => '123456',
 //            'email'    => 'test@example.com',
 //            'password' => '12345',
 //            'first_name' => 'Nicolas',
